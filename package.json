@@ -1,50 +1,8 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "react-scripts@^1.0.7",
-        "scope": null,
-        "escapedName": "react-scripts",
-        "name": "react-scripts",
-        "rawSpec": "^1.0.7",
-        "spec": ">=1.0.7 <2.0.0",
-        "type": "range"
-      },
-      "/Users/didi/Works/Codes/car-manage-web"
-    ]
-  ],
-  "_from": "react-scripts@>=1.0.7 <2.0.0",
-  "_id": "react-scripts@1.0.7",
-  "_inCache": true,
-  "_location": "/react-scripts",
-  "_nodeVersion": "6.2.1",
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/react-scripts-1.0.7.tgz_1495885419454_0.7287497390061617"
-  },
-  "_npmUser": {
-    "name": "gaearon",
-    "email": "dan.abramov@gmail.com"
-  },
-  "_npmVersion": "4.6.1",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "react-scripts@^1.0.7",
-    "scope": null,
-    "escapedName": "react-scripts",
-    "name": "react-scripts",
-    "rawSpec": "^1.0.7",
-    "spec": ">=1.0.7 <2.0.0",
-    "type": "range"
-  },
-  "_requiredBy": [
-    "#DEV:/"
-  ],
-  "_resolved": "https://registry.npmjs.org/react-scripts/-/react-scripts-1.0.7.tgz",
-  "_shasum": "fe1436dda03bb45465c76d097cfea4f32eb7cbbb",
-  "_shrinkwrap": null,
-  "_spec": "react-scripts@^1.0.7",
-  "_where": "/Users/didi/Works/Codes/car-manage-web",
+  "name": "react-package-scripts",
+  "version": "1.0.8",
+  "description": "Configuration and scripts for Create React App.",
+  "license": "MIT",
   "bin": {
     "react-scripts": "./bin/react-scripts.js"
   },
@@ -90,7 +48,7 @@
     "webpack-manifest-plugin": "1.1.0",
     "whatwg-fetch": "2.0.3"
   },
-  "description": "Configuration and scripts for Create React App.",
+
   "devDependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
@@ -111,14 +69,12 @@
     "utils"
   ],
   "homepage": "https://github.com/facebookincubator/create-react-app#readme",
-  "license": "BSD-3-Clause",
   "maintainers": [
     {
       "name": "gaearon",
       "email": "dan.abramov@gmail.com"
     }
   ],
-  "name": "react-scripts",
   "optionalDependencies": {
     "fsevents": "1.0.17"
   },
@@ -127,6 +83,5 @@
     "type": "git",
     "url": "git+https://github.com/facebookincubator/create-react-app.git"
   },
-  "scripts": {},
-  "version": "1.0.7"
+  "scripts": {}
 }
